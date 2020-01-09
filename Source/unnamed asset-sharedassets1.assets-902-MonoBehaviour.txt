@@ -1,0 +1,2417 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 int m_PathID = 41
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 int m_PathID = 141
+ 1 string m_Name = ""
+ 0 PPtr<$Material> material
+  0 int m_FileID = 0
+  0 int m_PathID = 12
+ 0 Sprite sprites
+  0 Array Array (141 items)
+   0 int size = 141
+   [0]
+    0 Sprite data
+     1 string name = "font.txt_0"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 524
+      0 float width = 500
+      0 float height = 3200
+     0 Rectf inner
+      0 float x = 0
+      0 float y = 524
+      0 float width = 500
+      0 float height = 3200
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [1]
+    0 Sprite data
+     1 string name = "window-bg"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 212
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 49
+      0 float y = 220
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [2]
+    0 Sprite data
+     1 string name = "miniviewport-bg"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 606
+      0 float width = 278
+      0 float height = 64
+     0 Rectf inner
+      0 float x = 501
+      0 float y = 662
+      0 float width = 264
+      0 float height = 4
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [3]
+    0 Sprite data
+     1 string name = "miniviewport-buttons-top"
+     0 Rectf outer
+      0 float x = 943
+      0 float y = 682
+      0 float width = 75
+      0 float height = 64
+     0 Rectf inner
+      0 float x = 943
+      0 float y = 742
+      0 float width = 4
+      0 float height = 4
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [4]
+    0 Sprite data
+     1 string name = "miniviewport-buttons-bg"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 338
+      0 float width = 75
+      0 float height = 64
+     0 Rectf inner
+      0 float x = 41
+      0 float y = 383
+      0 float width = 1
+      0 float height = 11
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [5]
+    0 Sprite data
+     1 string name = "miniviewport-tab"
+     0 Rectf outer
+      0 float x = 780
+      0 float y = 534
+      0 float width = 66
+      0 float height = 45
+     0 Rectf inner
+      0 float x = 788
+      0 float y = 542
+      0 float width = 50
+      0 float height = 21
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [6]
+    0 Sprite data
+     1 string name = "miniviewport-tab-ho"
+     0 Rectf outer
+      0 float x = 232
+      0 float y = 229
+      0 float width = 66
+      0 float height = 45
+     0 Rectf inner
+      0 float x = 240
+      0 float y = 237
+      0 float width = 50
+      0 float height = 21
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [7]
+    0 Sprite data
+     1 string name = "miniviewport-tab-se"
+     0 Rectf outer
+      0 float x = 165
+      0 float y = 229
+      0 float width = 66
+      0 float height = 45
+     0 Rectf inner
+      0 float x = 173
+      0 float y = 237
+      0 float width = 50
+      0 float height = 21
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [8]
+    0 Sprite data
+     1 string name = "button"
+     0 Rectf outer
+      0 float x = 167
+      0 float y = 275
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 171
+      0 float y = 279
+      0 float width = 54
+      0 float height = 54
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [9]
+    0 Sprite data
+     1 string name = "messagebar-bg"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 403
+      0 float width = 115
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 76
+      0 float y = 403
+      0 float width = 23
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [10]
+    0 Sprite data
+     1 string name = "iconbar-bg"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 965
+      0 float width = 24
+      0 float height = 59
+     0 Rectf inner
+      0 float x = 1001
+      0 float y = 965
+      0 float width = 8
+      0 float height = 0
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [11]
+    0 Sprite data
+     1 string name = "iconbar-button"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 215
+      0 float width = 60
+      0 float height = 59
+     0 Rectf inner
+      0 float x = 104
+      0 float y = 215
+      0 float width = 60
+      0 float height = 59
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0.0847457647
+     0 float paddingBottom = 0
+   [12]
+    0 Sprite data
+     1 string name = "iconbar-button-se"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 27
+      0 float width = 60
+      0 float height = 60
+     0 Rectf inner
+      0 float x = 41
+      0 float y = 27
+      0 float width = 60
+      0 float height = 60
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [13]
+    0 Sprite data
+     1 string name = "iconbar-button-ho"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 88
+      0 float width = 60
+      0 float height = 60
+     0 Rectf inner
+      0 float x = 41
+      0 float y = 88
+      0 float width = 60
+      0 float height = 60
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [14]
+    0 Sprite data
+     1 string name = "subwindow-bg"
+     0 Rectf outer
+      0 float x = 230
+      0 float y = 275
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 238
+      0 float y = 283
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [15]
+    0 Sprite data
+     1 string name = "inactive"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 1
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 1
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [16]
+    0 Sprite data
+     1 string name = "active"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 18
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 18
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [17]
+    0 Sprite data
+     1 string name = "close-button"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 67
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 67
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [18]
+    0 Sprite data
+     1 string name = "checkbox-se"
+     0 Rectf outer
+      0 float x = 847
+      0 float y = 529
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 847
+      0 float y = 529
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [19]
+    0 Sprite data
+     1 string name = "checkbox"
+     0 Rectf outer
+      0 float x = 847
+      0 float y = 546
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 847
+      0 float y = 546
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [20]
+    0 Sprite data
+     1 string name = "checkbox-ho"
+     0 Rectf outer
+      0 float x = 847
+      0 float y = 563
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 847
+      0 float y = 563
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [21]
+    0 Sprite data
+     1 string name = "button-ho"
+     0 Rectf outer
+      0 float x = 247
+      0 float y = 340
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 251
+      0 float y = 344
+      0 float width = 54
+      0 float height = 54
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [22]
+    0 Sprite data
+     1 string name = "button-se"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 275
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 45
+      0 float y = 279
+      0 float width = 54
+      0 float height = 54
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [23]
+    0 Sprite data
+     1 string name = "numberedit-down"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 815
+      0 float width = 20
+      0 float height = 12
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 815
+      0 float width = 20
+      0 float height = 12
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [24]
+    0 Sprite data
+     1 string name = "numberedit-up"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 952
+      0 float width = 20
+      0 float height = 12
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 952
+      0 float width = 20
+      0 float height = 12
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [25]
+    0 Sprite data
+     1 string name = "graph-column"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 275
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 105
+      0 float y = 277
+      0 float width = 60
+      0 float height = 58
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [26]
+    0 Sprite data
+     1 string name = "pixel"
+     0 Rectf outer
+      0 float x = 1018
+      0 float y = 1022
+      0 float width = 2
+      0 float height = 2
+     0 Rectf inner
+      0 float x = 1018
+      0 float y = 1022
+      0 float width = 2
+      0 float height = 2
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [27]
+    0 Sprite data
+     1 string name = "statusbar-bg2"
+     0 Rectf outer
+      0 float x = 116
+      0 float y = 403
+      0 float width = 104
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 153
+      0 float y = 403
+      0 float width = 8
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [28]
+    0 Sprite data
+     1 string name = "statusbar-bg1"
+     0 Rectf outer
+      0 float x = 221
+      0 float y = 403
+      0 float width = 57
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 239
+      0 float y = 403
+      0 float width = 7
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [29]
+    0 Sprite data
+     1 string name = "petition-tab"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 893
+      0 float width = 132
+      0 float height = 58
+     0 Rectf inner
+      0 float x = 864
+      0 float y = 905
+      0 float width = 96
+      0 float height = 34
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [30]
+    0 Sprite data
+     1 string name = "graph-line"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 73
+      0 float width = 32
+      0 float height = 32
+     0 Rectf inner
+      0 float x = 104
+      0 float y = 73
+      0 float width = 32
+      0 float height = 32
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [31]
+    0 Sprite data
+     1 string name = "petition-mark"
+     0 Rectf outer
+      0 float x = 425
+      0 float y = 481
+      0 float width = 50
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 425
+      0 float y = 481
+      0 float width = 50
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [32]
+    0 Sprite data
+     1 string name = "map-cursor"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 18
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 18
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [33]
+    0 Sprite data
+     1 string name = "map-location"
+     0 Rectf outer
+      0 float x = 1014
+      0 float y = 956
+      0 float width = 8
+      0 float height = 8
+     0 Rectf inner
+      0 float x = 1014
+      0 float y = 956
+      0 float width = 8
+      0 float height = 8
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [34]
+    0 Sprite data
+     1 string name = "reputation-bar"
+     0 Rectf outer
+      0 float x = 476
+      0 float y = 514
+      0 float width = 172
+      0 float height = 9
+     0 Rectf inner
+      0 float x = 476
+      0 float y = 514
+      0 float width = 172
+      0 float height = 9
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [35]
+    0 Sprite data
+     1 string name = "datapanel"
+     0 Rectf outer
+      0 float x = 244
+      0 float y = 113
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 244
+      0 float y = 113
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [36]
+    0 Sprite data
+     1 string name = "companypanel"
+     0 Rectf outer
+      0 float x = 195
+      0 float y = 64
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 195
+      0 float y = 64
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [37]
+    0 Sprite data
+     1 string name = "tools"
+     0 Rectf outer
+      0 float x = 195
+      0 float y = 15
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 195
+      0 float y = 15
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [38]
+    0 Sprite data
+     1 string name = "menu"
+     0 Rectf outer
+      0 float x = 244
+      0 float y = 64
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 244
+      0 float y = 64
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [39]
+    0 Sprite data
+     1 string name = "transportpanel"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 475
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 475
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [40]
+    0 Sprite data
+     1 string name = "underground-view"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 426
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 426
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [41]
+    0 Sprite data
+     1 string name = "zones"
+     0 Rectf outer
+      0 float x = 244
+      0 float y = 15
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 244
+      0 float y = 15
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [42]
+    0 Sprite data
+     1 string name = "largemap"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 377
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 377
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [43]
+    0 Sprite data
+     1 string name = "info"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 328
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 328
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [44]
+    0 Sprite data
+     1 string name = "map"
+     0 Rectf outer
+      0 float x = 144
+      0 float y = 11
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 144
+      0 float y = 11
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [45]
+    0 Sprite data
+     1 string name = "visibilitybox-ho"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 116
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 116
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [46]
+    0 Sprite data
+     1 string name = "visibilitybox-se"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 116
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 116
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [47]
+    0 Sprite data
+     1 string name = "visibilitybox"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 67
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 67
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [48]
+    0 Sprite data
+     1 string name = "money"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 268
+      0 float width = 40
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 268
+      0 float width = 40
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [49]
+    0 Sprite data
+     1 string name = "reputation"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 309
+      0 float width = 40
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 309
+      0 float width = 40
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [50]
+    0 Sprite data
+     1 string name = "newsticker"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 350
+      0 float width = 40
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 350
+      0 float width = 40
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [51]
+    0 Sprite data
+     1 string name = "reputation-bar-pointer"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 195
+      0 float width = 10
+      0 float height = 22
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 195
+      0 float width = 10
+      0 float height = 22
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [52]
+    0 Sprite data
+     1 string name = "veryfasttime_ho"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 285
+      0 float width = 30
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 285
+      0 float width = 30
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [53]
+    0 Sprite data
+     1 string name = "veryfasttime_se"
+     0 Rectf outer
+      0 float x = 967
+      0 float y = 756
+      0 float width = 30
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 967
+      0 float y = 756
+      0 float width = 30
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [54]
+    0 Sprite data
+     1 string name = "fasttime"
+     0 Rectf outer
+      0 float x = 998
+      0 float y = 756
+      0 float width = 24
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 998
+      0 float y = 756
+      0 float width = 24
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [55]
+    0 Sprite data
+     1 string name = "fasttime_ho"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 10
+      0 float width = 24
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 41
+      0 float y = 10
+      0 float width = 24
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [56]
+    0 Sprite data
+     1 string name = "normaltime_ho"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 251
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 251
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [57]
+    0 Sprite data
+     1 string name = "fasttime_se"
+     0 Rectf outer
+      0 float x = 66
+      0 float y = 10
+      0 float width = 24
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 66
+      0 float y = 10
+      0 float width = 24
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [58]
+    0 Sprite data
+     1 string name = "normaltime_se"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 234
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 234
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [59]
+    0 Sprite data
+     1 string name = "pause"
+     0 Rectf outer
+      0 float x = 412
+      0 float y = 251
+      0 float width = 10
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 412
+      0 float y = 251
+      0 float width = 10
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [60]
+    0 Sprite data
+     1 string name = "pause_ho"
+     0 Rectf outer
+      0 float x = 389
+      0 float y = 201
+      0 float width = 10
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 389
+      0 float y = 201
+      0 float width = 10
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [61]
+    0 Sprite data
+     1 string name = "normaltime"
+     0 Rectf outer
+      0 float x = 395
+      0 float y = 251
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 395
+      0 float y = 251
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [62]
+    0 Sprite data
+     1 string name = "pause_se"
+     0 Rectf outer
+      0 float x = 411
+      0 float y = 234
+      0 float width = 10
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 411
+      0 float y = 234
+      0 float width = 10
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [63]
+    0 Sprite data
+     1 string name = "veryfasttime"
+     0 Rectf outer
+      0 float x = 936
+      0 float y = 756
+      0 float width = 30
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 936
+      0 float y = 756
+      0 float width = 30
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [64]
+    0 Sprite data
+     1 string name = "view"
+     0 Rectf outer
+      0 float x = 195
+      0 float y = 113
+      0 float width = 48
+      0 float height = 48
+     0 Rectf inner
+      0 float x = 195
+      0 float y = 113
+      0 float width = 48
+      0 float height = 48
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [65]
+    0 Sprite data
+     1 string name = "dialog-bg"
+     0 Rectf outer
+      0 float x = 780
+      0 float y = 580
+      0 float width = 78
+      0 float height = 90
+     0 Rectf inner
+      0 float x = 804
+      0 float y = 634
+      0 float width = 30
+      0 float height = 12
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [66]
+    0 Sprite data
+     1 string name = "menu-bg"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 671
+      0 float width = 362
+      0 float height = 75
+     0 Rectf inner
+      0 float x = 501
+      0 float y = 671
+      0 float width = 362
+      0 float height = 75
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [67]
+    0 Sprite data
+     1 string name = "facebook-button"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 46
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 46
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [68]
+    0 Sprite data
+     1 string name = "menu-item_ho"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 446
+      0 float width = 328
+      0 float height = 38
+     0 Rectf inner
+      0 float x = 0
+      0 float y = 446
+      0 float width = 328
+      0 float height = 38
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [69]
+    0 Sprite data
+     1 string name = "forum-button"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 93
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 93
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [70]
+    0 Sprite data
+     1 string name = "menu-item"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 485
+      0 float width = 328
+      0 float height = 38
+     0 Rectf inner
+      0 float x = 0
+      0 float y = 485
+      0 float width = 328
+      0 float height = 38
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [71]
+    0 Sprite data
+     1 string name = "menu-dividerbar"
+     0 Rectf outer
+      0 float x = 649
+      0 float y = 521
+      0 float width = 328
+      0 float height = 2
+     0 Rectf inner
+      0 float x = 649
+      0 float y = 521
+      0 float width = 328
+      0 float height = 2
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [72]
+    0 Sprite data
+     1 string name = "twitter-button"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 140
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 140
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [73]
+    0 Sprite data
+     1 string name = "icon-overlay_se"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 477
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 477
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [74]
+    0 Sprite data
+     1 string name = "icon-overlay_ho"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 187
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 187
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [75]
+    0 Sprite data
+     1 string name = "website-button"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 234
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 234
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [76]
+    0 Sprite data
+     1 string name = "menu-button"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 773
+      0 float width = 155
+      0 float height = 39
+     0 Rectf inner
+      0 float x = 868
+      0 float y = 777
+      0 float width = 147
+      0 float height = 31
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [77]
+    0 Sprite data
+     1 string name = "menu-roundend"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 886
+      0 float width = 362
+      0 float height = 138
+     0 Rectf inner
+      0 float x = 501
+      0 float y = 886
+      0 float width = 362
+      0 float height = 138
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [78]
+    0 Sprite data
+     1 string name = "menu-button_ho"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 526
+      0 float width = 155
+      0 float height = 39
+     0 Rectf inner
+      0 float x = 505
+      0 float y = 530
+      0 float width = 147
+      0 float height = 31
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [79]
+    0 Sprite data
+     1 string name = "tooltip-bg"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 674
+      0 float width = 78
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 888
+      0 float y = 698
+      0 float width = 30
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [80]
+    0 Sprite data
+     1 string name = "menu-roundend-top"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 747
+      0 float width = 362
+      0 float height = 138
+     0 Rectf inner
+      0 float x = 501
+      0 float y = 747
+      0 float width = 362
+      0 float height = 138
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [81]
+    0 Sprite data
+     1 string name = "icon-overlay"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 281
+      0 float width = 46
+      0 float height = 46
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 281
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [82]
+    0 Sprite data
+     1 string name = "menu-button_se"
+     0 Rectf outer
+      0 float x = 501
+      0 float y = 566
+      0 float width = 155
+      0 float height = 39
+     0 Rectf inner
+      0 float x = 505
+      0 float y = 570
+      0 float width = 147
+      0 float height = 31
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [83]
+    0 Sprite data
+     1 string name = "save-settings"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 1
+      0 float width = 38
+      0 float height = 38
+     0 Rectf inner
+      0 float x = 0
+      0 float y = 1
+      0 float width = 38
+      0 float height = 38
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [84]
+    0 Sprite data
+     1 string name = "back"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 302
+      0 float width = 35
+      0 float height = 35
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 302
+      0 float width = 35
+      0 float height = 35
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [85]
+    0 Sprite data
+     1 string name = "startgame"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 106
+      0 float width = 35
+      0 float height = 35
+     0 Rectf inner
+      0 float x = 104
+      0 float y = 106
+      0 float width = 35
+      0 float height = 35
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [86]
+    0 Sprite data
+     1 string name = "delete"
+     0 Rectf outer
+      0 float x = 301
+      0 float y = 166
+      0 float width = 19
+      0 float height = 19
+     0 Rectf inner
+      0 float x = 301
+      0 float y = 166
+      0 float width = 19
+      0 float height = 19
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [87]
+    0 Sprite data
+     1 string name = "delete_ho"
+     0 Rectf outer
+      0 float x = 972
+      0 float y = 531
+      0 float width = 19
+      0 float height = 19
+     0 Rectf inner
+      0 float x = 972
+      0 float y = 531
+      0 float width = 19
+      0 float height = 19
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [88]
+    0 Sprite data
+     1 string name = "tab-bg"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 551
+      0 float width = 128
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 888
+      0 float y = 551
+      0 float width = 80
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [89]
+    0 Sprite data
+     1 string name = "tab-fill"
+     0 Rectf outer
+      0 float x = 322
+      0 float y = 405
+      0 float width = 6
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 322
+      0 float y = 405
+      0 float width = 6
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [90]
+    0 Sprite data
+     1 string name = "tab-bg_ho"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 633
+      0 float width = 128
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 888
+      0 float y = 633
+      0 float width = 80
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [91]
+    0 Sprite data
+     1 string name = "tab-bg_se"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 592
+      0 float width = 128
+      0 float height = 40
+     0 Rectf inner
+      0 float x = 888
+      0 float y = 592
+      0 float width = 80
+      0 float height = 40
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [92]
+    0 Sprite data
+     1 string name = "browse-arrow-left"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 345
+      0 float width = 18
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 345
+      0 float width = 18
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [93]
+    0 Sprite data
+     1 string name = "browse-arrow-right"
+     0 Rectf outer
+      0 float x = 301
+      0 float y = 186
+      0 float width = 18
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 301
+      0 float y = 186
+      0 float width = 18
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [94]
+    0 Sprite data
+     1 string name = "bar-pointer"
+     0 Rectf outer
+      0 float x = 91
+      0 float y = 4
+      0 float width = 10
+      0 float height = 22
+     0 Rectf inner
+      0 float x = 91
+      0 float y = 4
+      0 float width = 10
+      0 float height = 22
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [95]
+    0 Sprite data
+     1 string name = "history"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 563
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 563
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [96]
+    0 Sprite data
+     1 string name = "edit"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 534
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 534
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [97]
+    0 Sprite data
+     1 string name = "residents"
+     0 Rectf outer
+      0 float x = 299
+      0 float y = 246
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 299
+      0 float y = 246
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [98]
+    0 Sprite data
+     1 string name = "workers"
+     0 Rectf outer
+      0 float x = 299
+      0 float y = 217
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 299
+      0 float y = 217
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [99]
+    0 Sprite data
+     1 string name = "vehicles"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 133
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 133
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [100]
+    0 Sprite data
+     1 string name = "passengers"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 84
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 84
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [101]
+    0 Sprite data
+     1 string name = "select-previous"
+     0 Rectf outer
+      0 float x = 293
+      0 float y = 35
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 293
+      0 float y = 35
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [102]
+    0 Sprite data
+     1 string name = "scenario-finished"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 7
+      0 float width = 32
+      0 float height = 32
+     0 Rectf inner
+      0 float x = 104
+      0 float y = 7
+      0 float width = 32
+      0 float height = 32
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [103]
+    0 Sprite data
+     1 string name = "scenario-notfinished"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 40
+      0 float width = 32
+      0 float height = 32
+     0 Rectf inner
+      0 float x = 104
+      0 float y = 40
+      0 float width = 32
+      0 float height = 32
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [104]
+    0 Sprite data
+     1 string name = "center-camera"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 604
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 604
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [105]
+    0 Sprite data
+     1 string name = "tutorial-arrow"
+     0 Rectf outer
+      0 float x = 182
+      0 float y = 338
+      0 float width = 64
+      0 float height = 64
+     0 Rectf inner
+      0 float x = 182
+      0 float y = 338
+      0 float width = 64
+      0 float height = 64
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [106]
+    0 Sprite data
+     1 string name = "datapanel-graphs-companygraphs"
+     0 Rectf outer
+      0 float x = 144
+      0 float y = 162
+      0 float width = 52
+      0 float height = 52
+     0 Rectf inner
+      0 float x = 144
+      0 float y = 162
+      0 float width = 52
+      0 float height = 52
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [107]
+    0 Sprite data
+     1 string name = "company-ticketprices-singleline"
+     0 Rectf outer
+      0 float x = 279
+      0 float y = 403
+      0 float width = 42
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 279
+      0 float y = 403
+      0 float width = 42
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [108]
+    0 Sprite data
+     1 string name = "company-ticketprices-twozones"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 391
+      0 float width = 42
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 391
+      0 float width = 42
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [109]
+    0 Sprite data
+     1 string name = "company-ticketprices-allzones"
+     0 Rectf outer
+      0 float x = 329
+      0 float y = 3
+      0 float width = 42
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 329
+      0 float y = 3
+      0 float width = 42
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [110]
+    0 Sprite data
+     1 string name = "datapanel-graphs-citygraphs"
+     0 Rectf outer
+      0 float x = 197
+      0 float y = 162
+      0 float width = 52
+      0 float height = 52
+     0 Rectf inner
+      0 float x = 197
+      0 float y = 162
+      0 float width = 52
+      0 float height = 52
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [111]
+    0 Sprite data
+     1 string name = "company-ticketprices-onezone"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 434
+      0 float width = 42
+      0 float height = 42
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 434
+      0 float width = 42
+      0 float height = 42
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [112]
+    0 Sprite data
+     1 string name = "cloud"
+     0 Rectf outer
+      0 float x = 905
+      0 float y = 752
+      0 float width = 30
+      0 float height = 20
+     0 Rectf inner
+      0 float x = 905
+      0 float y = 752
+      0 float width = 30
+      0 float height = 20
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [113]
+    0 Sprite data
+     1 string name = "add-stops"
+     0 Rectf outer
+      0 float x = 945
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 945
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [114]
+    0 Sprite data
+     1 string name = "buy-vehicles"
+     0 Rectf outer
+      0 float x = 918
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 918
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [115]
+    0 Sprite data
+     1 string name = "edit-timetables"
+     0 Rectf outer
+      0 float x = 891
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 891
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [116]
+    0 Sprite data
+     1 string name = "object-info"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 864
+      0 float y = 524
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [117]
+    0 Sprite data
+     1 string name = "list-of-stops"
+     0 Rectf outer
+      0 float x = 997
+      0 float y = 898
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 997
+      0 float y = 898
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [118]
+    0 Sprite data
+     1 string name = "change-depot"
+     0 Rectf outer
+      0 float x = 997
+      0 float y = 925
+      0 float width = 26
+      0 float height = 26
+     0 Rectf inner
+      0 float x = 997
+      0 float y = 925
+      0 float width = 26
+      0 float height = 26
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [119]
+    0 Sprite data
+     1 string name = "help-icon"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 1
+      0 float width = 16
+      0 float height = 16
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 1
+      0 float width = 16
+      0 float height = 16
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [120]
+    0 Sprite data
+     1 string name = "button-se-strong"
+     0 Rectf outer
+      0 float x = 41
+      0 float y = 149
+      0 float width = 62
+      0 float height = 62
+     0 Rectf inner
+      0 float x = 49
+      0 float y = 157
+      0 float width = 46
+      0 float height = 46
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [121]
+    0 Sprite data
+     1 string name = "tutorial-passed"
+     0 Rectf outer
+      0 float x = 117
+      0 float y = 338
+      0 float width = 64
+      0 float height = 64
+     0 Rectf inner
+      0 float x = 117
+      0 float y = 338
+      0 float width = 64
+      0 float height = 64
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [122]
+    0 Sprite data
+     1 string name = "tab2-bg_se"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 161
+      0 float width = 40
+      0 float height = 120
+     0 Rectf inner
+      0 float x = 12
+      0 float y = 173
+      0 float width = 16
+      0 float height = 96
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [123]
+    0 Sprite data
+     1 string name = "tab2-bg_ho"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 282
+      0 float width = 40
+      0 float height = 120
+     0 Rectf inner
+      0 float x = 12
+      0 float y = 294
+      0 float width = 16
+      0 float height = 96
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [124]
+    0 Sprite data
+     1 string name = "tab2-bg"
+     0 Rectf outer
+      0 float x = 0
+      0 float y = 40
+      0 float width = 40
+      0 float height = 120
+     0 Rectf inner
+      0 float x = 12
+      0 float y = 52
+      0 float width = 16
+      0 float height = 96
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [125]
+    0 Sprite data
+     1 string name = "tab2-fill"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 752
+      0 float width = 40
+      0 float height = 20
+     0 Rectf inner
+      0 float x = 876
+      0 float y = 752
+      0 float width = 16
+      0 float height = 8
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [126]
+    0 Sprite data
+     1 string name = "saveIcon"
+     0 Rectf outer
+      0 float x = 395
+      0 float y = 235
+      0 float width = 15
+      0 float height = 15
+     0 Rectf inner
+      0 float x = 395
+      0 float y = 235
+      0 float width = 15
+      0 float height = 15
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [127]
+    0 Sprite data
+     1 string name = "newIcon"
+     0 Rectf outer
+      0 float x = 378
+      0 float y = 218
+      0 float width = 15
+      0 float height = 15
+     0 Rectf inner
+      0 float x = 378
+      0 float y = 218
+      0 float width = 15
+      0 float height = 15
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [128]
+    0 Sprite data
+     1 string name = "loadIcon"
+     0 Rectf outer
+      0 float x = 394
+      0 float y = 218
+      0 float width = 15
+      0 float height = 15
+     0 Rectf inner
+      0 float x = 394
+      0 float y = 218
+      0 float width = 15
+      0 float height = 15
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [129]
+    0 Sprite data
+     1 string name = "vehicles3"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 645
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 645
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [130]
+    0 Sprite data
+     1 string name = "vehicles2"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 828
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 828
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [131]
+    0 Sprite data
+     1 string name = "vehicles1"
+     0 Rectf outer
+      0 float x = 993
+      0 float y = 857
+      0 float width = 28
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 993
+      0 float y = 857
+      0 float width = 28
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [132]
+    0 Sprite data
+     1 string name = "car-trailer"
+     0 Rectf outer
+      0 float x = 144
+      0 float y = 111
+      0 float width = 50
+      0 float height = 50
+     0 Rectf inner
+      0 float x = 144
+      0 float y = 111
+      0 float width = 50
+      0 float height = 50
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [133]
+    0 Sprite data
+     1 string name = "car-control"
+     0 Rectf outer
+      0 float x = 144
+      0 float y = 60
+      0 float width = 50
+      0 float height = 50
+     0 Rectf inner
+      0 float x = 144
+      0 float y = 60
+      0 float width = 50
+      0 float height = 50
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [134]
+    0 Sprite data
+     1 string name = "car-power"
+     0 Rectf outer
+      0 float x = 250
+      0 float y = 164
+      0 float width = 50
+      0 float height = 50
+     0 Rectf inner
+      0 float x = 250
+      0 float y = 164
+      0 float width = 50
+      0 float height = 50
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [135]
+    0 Sprite data
+     1 string name = "browse-arrow-switch"
+     0 Rectf outer
+      0 float x = 310
+      0 float y = 374
+      0 float width = 18
+      0 float height = 28
+     0 Rectf inner
+      0 float x = 310
+      0 float y = 374
+      0 float width = 18
+      0 float height = 28
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [136]
+    0 Sprite data
+     1 string name = "tooltip-bg-ho"
+     0 Rectf outer
+      0 float x = 657
+      0 float y = 533
+      0 float width = 78
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 681
+      0 float y = 557
+      0 float width = 30
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [137]
+    0 Sprite data
+     1 string name = "feed"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 952
+      0 float width = 128
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 864
+      0 float y = 976
+      0 float width = 104
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [138]
+    0 Sprite data
+     1 string name = "abg-left"
+     0 Rectf outer
+      0 float x = 104
+      0 float y = 142
+      0 float width = 39
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 128
+      0 float y = 166
+      0 float width = 15
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [139]
+    0 Sprite data
+     1 string name = "feed-ho"
+     0 Rectf outer
+      0 float x = 864
+      0 float y = 813
+      0 float width = 128
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 864
+      0 float y = 837
+      0 float width = 104
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+   [140]
+    0 Sprite data
+     1 string name = "abg-right"
+     0 Rectf outer
+      0 float x = 736
+      0 float y = 533
+      0 float width = 39
+      0 float height = 72
+     0 Rectf inner
+      0 float x = 736
+      0 float y = 557
+      0 float width = 15
+      0 float height = 24
+     0 float paddingLeft = 0
+     0 float paddingRight = 0
+     0 float paddingTop = 0
+     0 float paddingBottom = 0
+ 0 int mCoordinates = 0
+ 0 PPtr<$UIAtlas> mReplacement
+  0 int m_FileID = 0
+  0 int m_PathID = 0
+ 1 UInt8 pixelPerfect = 1
